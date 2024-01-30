@@ -1,0 +1,15 @@
+{
+  "name": "address-verifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/receiveme/address-verifier.git",
+  "author": "dev@nickmura.ca",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "next dev",
+    "test": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}
