@@ -7,9 +7,18 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "next dev",
-    "test": "next build",
+    "build": "npx tsc",
+    "dev": "npx tsc && node ./build/tests/test.js",
+    "test": "npx tsc && node ./build/tests/test.js",
     "start": "next start",
     "lint": "next lint"
+  },
+  "dependencies": {
+    "@covalenthq/client-sdk": "^0.8.6",
+    "ethers": "^5.2.0",
+    "tronweb": "^5.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
   }
 }
